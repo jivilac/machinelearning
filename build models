@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 18 13:14:44 2019
+
+@author: jivila
+"""
+
+'''
+5. Build Classifier: For this assignment, select any classifier you feel comfortable
+with (Logistic Regression or Decision Trees)
+
+'''

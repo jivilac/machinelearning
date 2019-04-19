@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 18 13:15:11 2019
+
+@author: jivila
+"""
+
+'''
+6. Evaluate Classifier: you can use any metric you choose for this assignment
+(accuracy is the easiest one – we will not usually use accuracy but it’s fine for
+this assignment). Feel free to evaluate it on the same data you built the model on
+(this is not a good idea in general but for this assignment, it is fine). We haven't
+covered models and evaluation yet, so don't worry about creating validation sets
+or cross-validation.
+'''
