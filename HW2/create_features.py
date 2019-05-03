@@ -15,10 +15,14 @@ least one variable each in this data.
 '''
 import pandas as pd
 
-def get_dummy(df,cols):
-    for var in cols:
-        df = pd.get_dummies( df, dummy_na=True, columns = var )
-    return df
+def get_dummy(cat_vars, df):
+    data1=df
+    for var in cat_vars:
+        cat_list='var'+'_'+var
+        cat_list = pd.get_dummies(df[var], prefix=var)
+        data1=data1.join(cat_list)
+    return data1
+
 
 def x_creator(x):
     for i in x:

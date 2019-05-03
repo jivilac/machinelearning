@@ -34,3 +34,17 @@ def drop_na(df):
     rv = df.dropna(inplace = True)
     return rv
 #
+def drop_var_list(var_list, df):
+    for i in var_list:
+        df= df.drop(i, axis=1)
+    return df
+
+def normalizer(df, column):
+    df[column]=(df[column]-df[column].mean())/df[column].std()
+    return df
+
+
+
+
+
+        
