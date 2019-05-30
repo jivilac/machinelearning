@@ -1,0 +1,22 @@
+﻿test_data,model_type,clf,auc-roc
+test1,RF,"(DecisionTreeClassifier(class_weight=None, cri...",0.639654
+test1,LR,"LogisticRegression(C=0.1, class_weight=None, d...",0.628519
+test1,SVM,"SVC(C=1, cache_size=200, class_weight=None, co...",0.648937
+test1,DT,"DecisionTreeClassifier(class_weight=None, crit...",0.626578
+test1,KNN,"KNeighborsClassifier(algorithm='auto', leaf_si...",0.598111
+test1,SGD,"SGDClassifier(alpha=0.0001, average=False, cla...",0.600593
+test1,AB,"(DecisionTreeClassifier(class_weight=None, cri...",0.599895
+test2,RF,"(DecisionTreeClassifier(class_weight=None, cri...",0.6573
+test2,LR,"LogisticRegression(C=0.1, class_weight=None, d...",0.633536
+test2,SVM,"SVC(C=1, cache_size=200, class_weight=None, co...",0.659624
+test2,DT,"DecisionTreeClassifier(class_weight=None, crit...",0.656576
+test2,KNN,"KNeighborsClassifier(algorithm='auto', leaf_si...",0.592328
+test2,SGD,"SGDClassifier(alpha=0.0001, average=False, cla...",0.621176
+test2,AB,"(DecisionTreeClassifier(class_weight=None, cri...",0.614077
+test3,RF,"(DecisionTreeClassifier(class_weight=None, cri...",0.672584
+test3,LR,"LogisticRegression(C=0.1, class_weight=None, d...",0.660012
+test3,SVM,"SVC(C=1, cache_size=200, class_weight=None, co...",0.646384
+test3,DT,"DecisionTreeClassifier(class_weight=None, crit...",0.665992
+test3,KNN,"KNeighborsClassifier(algorithm='auto', leaf_si...",0.622719
+test3,SGD,"SGDClassifier(alpha=0.0001, average=False, cla...",0.656475
+test3,AB,"(DecisionTreeClassifier(class_weight=None, cri...",0.61499
