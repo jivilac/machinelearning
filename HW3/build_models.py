@@ -330,10 +330,10 @@ def clf_loop(models_to_run, clfs, grid, x_train, x_test, y_train, y_test, levels
                         rv = recall_at_k(y_test_sorted,y_pred_probs_sorted,i)
                         base_columns.append(rv)
                     for i in levels:
-                        f1_at_k(y_test_sorted,y_pred_probs_sorted,i)
+                        rv = f1_at_k(y_test_sorted,y_pred_probs_sorted,i)
                         base_columns.append(rv)
                     for i in levels:
-                        accuracy_at_k(y_test_sorted,y_pred_probs_sorted,i)
+                        rv = accuracy_at_k(y_test_sorted,y_pred_probs_sorted,i)
                         base_columns.append(rv)
                         
                         
